@@ -1,0 +1,149 @@
+h1,h2,h3,h4,h5,h6{
+		color: rgb(26,188,156) !important;
+		margin-top: 0px !important;
+		margin-bottom: 0px !important;
+}
+.right{
+	float: right;
+}
+body{
+	background: rgb(234,237,242) !important;
+}
+/*topo*/
+.topo{
+	background: rgb(55,58,67);
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: #fff;
+}
+	.topo section{
+		padding-bottom: 15px;
+	}
+	.topo-menu img{
+		height: 28px;
+	}
+	.topo-icon{
+		color: #fff;
+		font-size: 22px;
+	}
+	.search{
+		background: rgba(255,255,255, 0.2);
+		border-radius: 15px;
+		overflow: hidden;
+		padding-left: 0 !important;
+	}
+	.search input, .search button{
+		background: none;
+		border: none !important;
+		box-shadow: none !important;
+		color: #ddd !important;
+	}
+	.s-button{
+		overflow: hidden;
+	}
+.notif-badge{
+	position:absolute;
+	z-index: 1;
+	top: -10px;
+	left: 0px;
+}
+.danger{
+	background: rgb(215, 62, 62) !important;
+	color: #fff !important;
+}
+.clear{
+	display: block;
+	clear: both;
+}
+.btn-style{
+	border-radius: 25px !important;
+	padding: 2px 10px 2px 5px;
+	color: rgb(26,188,156) !important;
+		background: rgb(86, 89, 96);
+	-webkit-transition:0.5s;
+}
+.btn-style:hover{
+	background: rgb(55, 58, 67);
+	text-decoration: none;
+}
+.btn-style img{
+	width: 28px;
+}
+.btn-style span{
+	margin-left: 7px;
+	margin-top: 4px;
+}
+/*-----*/
+/* Menu */
+.menu{
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+.navbar-default{
+	background: none !important;
+}
+	.menu ul{
+		margin: 0 !important;
+		padding: 0 !important;
+		overflow: hidden;		
+	}
+		.menu li{
+			-webkit-transition: 1s;
+		}
+			.menu li a{
+				color: rgb(55,58,67)	;
+				font-size: 15px;
+				text-decoration: none;
+			}
+			.menu li:hover{
+				-webkit-transition: 0.2s;
+				background: #ccc !important;
+			}
+				.menu li a span:last-child{
+					padding-left: 10px;
+				}
+/*-----*/
+/* Conteudo */
+.box-1{
+	background: #fff;
+	border: 1px solid #ddd;
+	height: 100%;
+	padding: 20px;
+}
+/*-----*/
+/* Rodapé */
+.rodape{
+	background: #ddd;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+/*-----*/
+.table{
+	border-radius: 4px !important;
+}
+.dataTables_length{
+	float: left;
+	overflow: hidden;
+}
+#table_filter{
+	overflow: hidden;
+}
+#table_filter input, .dataTables_length select{
+	border-radius: 4px !important;
+	border: 1px solid #ddd !important;
+	padding: 4px;	
+}
+.paginate_button{
+  padding: 5px 10px;
+  background: rgb(26,188,156);
+  margin-left: 5px; 
+  color: #fff !important;
+  cursor:pointer;
+}
+.current{
+  background: rgb(55, 58, 67);
+}
+.paginate_button:hover{
+  background: rgb(26,178,146);
+}
